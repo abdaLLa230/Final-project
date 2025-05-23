@@ -98,7 +98,7 @@ async function addTocart(id) {
    };
 
    function getProduct(id) {
-     axios.get(`https:ecommerce.routemisr.com/api/v1/products/${id}`)
+     axios.get(`https://ecommerce.routemisr.com/api/v1/products/${id}`)
        .then((res) => {
          setProduct(res.data.data);
          console.log(res);
@@ -107,7 +107,7 @@ async function addTocart(id) {
    }
 
    function getAllproduct() {
-     axios.get(`https:ecommerce.routemisr.com/api/v1/products`)
+     axios.get(`https://ecommerce.routemisr.com/api/v1/products`)
        .then((res) => {
          let related = res.data.data.filter((product) => product.category.name === category);
          
