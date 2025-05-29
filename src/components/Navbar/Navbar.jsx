@@ -193,16 +193,16 @@ export default function Navbar() {
                   </div>
                 ) : (
                   <>
-                    <motion.li whileHover={{ scale: 1.1 }}>
+                    <motion.div whileHover={{ scale: 1.1 }}>
                       <Link className=' border-2 pt-1 border-blue-400 cursor-pointer rounded-xl p-2 focus:border-b-2 ' to="login">
                       Login
                       </Link>
-                    </motion.li>
-                    <motion.li whileHover={{ scale: 1.1 }}>
+                    </motion.div>
+                    <motion.div whileHover={{ scale: 1.1 }}>
                       <Link className='  cursor-pointer rounded-xl pt-1 p-2 focus:border-b-2 border-2  border-blue-400' to="register">
                       Register
                       </Link>
-                    </motion.li>
+                    </motion.div>
                   </>
                 )}
               </div>
