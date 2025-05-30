@@ -75,7 +75,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }} 
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="fixed z-50 mt-0 bg-gray-300/95 backdrop-blur-md rounded-2xl border text-black border-white/20 shadow-lg w-[90%] max-w-7xl px-8  mx-auto left-0 right-0 top-5 "
+            className="fixed z-50 mt-0 bg-gray-300/95 backdrop-blur-md rounded-2xl border text-black border-white/20 shadow-lg w-[90%] max-w-7xl px-8  mx-auto left-0 right-0 top-1 "
           >
             <div className="flex items-center justify-between py-3 w-full">
               <motion.div 
@@ -217,7 +217,7 @@ export default function Navbar() {
                   animate={{ height: "auto", opacity: 1 }} 
                   exit={{ height: 0, opacity: 0 }} 
                   transition={{ duration: 0.3, ease: "easeInOut" }}
-                  className="md:hidden bg-white/95 backdrop-blur-md w-full absolute top-full left-0 mt-2 rounded-xl shadow-lg overflow-hidden border border-white/20"
+                  className="md:hidden bg-gray-300/95 backdrop-blur-md w-full absolute top-full left-0 mt-1 rounded-xl shadow-lg overflow-hidden border border-white/20"
                 >
                   <div className="p-4">
                     <ul className='flex flex-col gap-3 text-lg font-serif'>
@@ -236,7 +236,7 @@ export default function Navbar() {
 
       {/* Mobile Bottom Navigation - Only shows quick actions */}
       {UserLogin !== null && (
-        <div className="md:hidden fixed left-1/2 bottom-4 -translate-x-1/2 z-40 bg-gray-300/95 backdrop-blur-md rounded-2xl border border-white/20 shadow-lg w-[95%]  px-4 py-2 flex justify-around items-center">
+        <div className="md:hidden fixed left-1/2 bottom-0 -translate-x-1/2 z-40 bg-gray-300/95 backdrop-blur-md rounded-2xl border border-white/20 shadow-lg w-[90%]   py-2 flex justify-around items-center">
           <Link to="products" className="flex flex-col items-center text-gray-600*20  transition-colors" onClick={closeAllMenus}>
             <i className="fa-solid fa-store text-blue-500 text-xl"></i>
             <span className="text-xs mt-1">Products</span>
