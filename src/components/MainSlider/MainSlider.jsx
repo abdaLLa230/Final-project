@@ -40,7 +40,7 @@ export default function MainSlider() {
                 <img
                   src={slide1}
                   alt="Slide 2"
-                  className="w-full h-auto max-h-[200px] md:max-h-[250px] lg:max-h-[274px] rounded-lg shadow-lg object-cover"
+                  className="w-full h-auto max-h-[210px] md:max-h-[260px] lg:max-h-[280px] rounded-lg shadow-lg object-cover"
                 />
               </div>
 
@@ -48,7 +48,7 @@ export default function MainSlider() {
                 <img
                   src={slide2}
                   alt="Slide 1"
-                  className="w-full h-auto max-h-[200px] md:max-h-[250px] lg:max-h-[274px] rounded-lg shadow-lg object-cover"
+                  className="w-full h-auto max-h-[210px] md:max-h-[260px] lg:max-h-[280px] rounded-lg shadow-lg object-cover"
                 />
               </div>
 
@@ -56,7 +56,7 @@ export default function MainSlider() {
                 <img
                   src={slide3}
                   alt="Slide 3"
-                  className="w-full h-auto max-h-[200px] md:max-h-[250px] lg:max-h-[274px] rounded-lg shadow-lg object-cover"
+                  className="w-full h-auto max-h-[210px] md:max-h-[260px] lg:max-h-[280px] rounded-lg shadow-lg object-cover"
                 />
               </div>
             </Slider>
@@ -67,12 +67,12 @@ export default function MainSlider() {
             <img
               src={slide4}
               alt="Slide 4"
-              className="w-full max-h-[200px] md:h-[118px] lg:h-[128px] rounded-lg shadow-lg object-cover"
+              className="w-full max-h-[210px] md:h-[122px] lg:h-[132px] rounded-lg shadow-lg object-cover"
             />
             <img
               src={slide5}
               alt="Slide 5"
-              className="w-full max-h-[200px] md:h-[118px] lg:h-[128px] rounded-lg shadow-lg object-cover"
+              className="w-full max-h-[210px] md:h-[122px] lg:h-[132px] rounded-lg shadow-lg object-cover"
             />
           </div>
         </div>
