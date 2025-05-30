@@ -76,7 +76,7 @@ export default function Footer() {
                 <i className="fas fa-phone w-6 text-blue-500"></i>
                 <span>+20 1033574732</span>
               </li>
-              <li className="flex items-center text-gray-600">
+              <li className="flex pb-2 items-center text-gray-600">
                 <i className="fas fa-envelope w-6 text-blue-500"></i>
                 <span>abdalla7ali@icloud.com</span>
               </li>
