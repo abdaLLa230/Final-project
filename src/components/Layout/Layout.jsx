@@ -15,7 +15,7 @@ export default function Layout() {
 
 
 
-<div className="container    py-12  md:py-10">
+<div className="container    py-14  md:py-10">
 
   <Outlet/>
 </div>
