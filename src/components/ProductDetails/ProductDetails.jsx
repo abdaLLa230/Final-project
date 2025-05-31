@@ -95,23 +95,23 @@ async function addTocart(id) {
       axios.get(`https:ecommerce.routemisr.com/api/v1/products/${id}`)
         .then((res) => {
           setProduct(res.data.data);
-          console.log(res);
+         
         })
         .catch(() => {});
     }
 
     function getAllproduct() {
-      axios.get(`https:ecommerce.routemisr.com/api/v1/products`)
-        .then((res) => {
-          let related = res.data.data.filter((product) => product.category.name === category);
+     axios.get(`https:ecommerce.routemisr.com/api/v1/products`)
+       .then((res) => {
+         let related = res.data.data.filter((product) => product.category.name === category);
          
          
-          setRelatedProducts(related);
-        })
-        .catch((error) => {
-          console.error("Error fetching related products:", error);
-        });
-    }
+         setRelatedProducts(related);
+       })
+       .catch((error) => {
+         console.error("Error fetching related products:", error);
+       });
+   }
 
     useEffect(() => {
       getProduct(id);
