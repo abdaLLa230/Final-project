@@ -164,7 +164,7 @@ export default function RecentProducts({ searchTerm }) {
 
                     <button
                       onClick={(e) => { e.stopPropagation(); toggleWishlist(product.id);}}
-                      className={`w-10 h-10 flex items-center justify-center rounded-md border ${wishlist.has(product.id) ? 'border-red-500 text-red-500' : 'border-gray-300 text-gray-500'} hover:border-red-500 hover:text-red-500 transition-all duration-200`}
+                      className={`w-10 h-10 flex items-center justify-center rounded-md border ${wishlist.has(product.id) ? 'border-red-500 text-red-500' : 'border-gray-300 text-gray-500'}  transition-all duration-200`}
                       disabled={loadingWishList && currentIdWishList === product.id}>
 
                       {loadingWishList && currentIdWishList === product.id ? (
