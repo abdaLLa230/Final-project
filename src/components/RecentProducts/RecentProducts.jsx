@@ -184,7 +184,7 @@ export default function RecentProducts({ searchTerm }) {
               <>
                 <button onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
                   disabled={currentPage === 1}
-                  className="px-6 py-3 rounded-lg bg-green-600 text-white hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-semibold shadow-lg flex items-center gap-2">
+                  className="px-3 py-3 rounded-full bg-green-600 text-white hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-semibold shadow-lg flex items-center gap-2">
                   <i className="fas fa-arrow-alt-circle-left"></i>
                 </button>
 
@@ -203,7 +203,7 @@ export default function RecentProducts({ searchTerm }) {
 
                 <button onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
                   disabled={currentPage === totalPages}
-                  className="px-6 p-3 rounded-lg bg-green-600 text-white hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-semibold shadow-lg flex items-center gap-2">
+                  className="px-3 py-3 rounded-full bg-green-600 text-white hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-semibold shadow-lg flex items-center gap-2">
                   <i className="fas fa-arrow-alt-circle-right"></i>
                 </button>
               </>
