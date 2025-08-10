@@ -108,10 +108,10 @@ export default function RecentProducts({ searchTerm }) {
   const currentProducts = filteredProducts.slice(startIndex, endIndex);
 
   return (
-    <div className="container mx-auto px-4 pt-8">
+    <div className="container  pt-8">
       {currentProducts.length > 0 ? (
         <>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5">
             {currentProducts.map((product) => (
               <div
                 key={product.id}
