@@ -15,7 +15,7 @@ export default function Layout() {
 
 
 
-<div className="container    pt-12 md:pt-10">
+<div className="    pt-12 md:pt-10">
 
   <Outlet/>
 </div>
